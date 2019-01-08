@@ -1,3 +1,6 @@
+#include "Graphe.cpp"
+#include "Tas.cpp"
+#include "Sommet.cpp"
 #include <iostream>
 
 int main() {

@@ -1,21 +1,20 @@
 #include "Graphe.h"
 
-
 Graphe::Graphe()
 {
     list<Sommet> sommet;
     (*this).sommet = Sommet();
 
-   	Sommet *it [9999];
+    Sommet *it [9999];
     for (int i = 0; i < sizeof(sommet); i++)
     {
-    	it[i] = new Sommet(i, sizeof(sommet));
+        it[i] = new Sommet(i, sizeof(sommet));
     }
 }
 
 Graphe::~Graphe()
 {
-   	sommet.~Sommet();
+    sommet.~Sommet();
 }
 
 void Graphe::ajoutSommet(int _id, int size)
@@ -40,5 +39,5 @@ void Graphe::supprimerArrete(int *numArete)
 
 void Graphe::afficherGraphe()
 {
-	cout << sommet.getPoidsVoisins();
+    cout << sommet.getPoidsVoisins();
 }

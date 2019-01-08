@@ -1,7 +1,5 @@
 #include "Sommet.h"
 
-Sommet::Sommet(){}
-
 Sommet::Sommet(int _id, int size)
 {
     (*this).id = _id;
