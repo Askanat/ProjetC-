@@ -23,7 +23,7 @@ public:
 
     void supprimerSommet(int *_id);
 
-    void supprimerArrete(int *numArete);
+    void supprimerArete(int *numArete);
 
     void afficherGraphe();
 };

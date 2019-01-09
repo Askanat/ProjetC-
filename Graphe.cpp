@@ -32,7 +32,7 @@ void Graphe::supprimerSommet(int *_id)
     sommet.delSommet(_id);
 }
 
-void Graphe::supprimerArrete(int *numArete)
+void Graphe::supprimerArete(int *numArete)
 {
     sommet.delArete(numArete);
 }
